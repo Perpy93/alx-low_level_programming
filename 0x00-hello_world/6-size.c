@@ -5,7 +5,6 @@
  *
  * Return: o on success
  */
-
 int main(void)
 {
 	printf("size of a char: %lu byte(s)", sizeof(char));
