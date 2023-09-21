@@ -2,8 +2,8 @@
 
 /**
  * _strcmp - compares two string
- *s1: input value 1
- *s2: input value 2
+ *@s1: input value 1
+ *@s2: input value 2
  * Return: s1[i] - s2[i]
  */
 
