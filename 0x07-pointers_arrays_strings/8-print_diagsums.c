@@ -2,11 +2,12 @@
 #include <stdio.h>
 
 /**
- * print_diagsum - prints two diagonal
+ * print_diagsums - prints two diagonal
  * @a: an input
  * @size: an input
  * Return: return 0
  */
+
 void print_diagsums(int *a, int size)
 {
 	int sum1, sum2, x;
