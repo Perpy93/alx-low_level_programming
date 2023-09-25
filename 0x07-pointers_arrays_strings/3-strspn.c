@@ -1,24 +1,30 @@
 #include "main.h"
 
 /**
- * _strpbrk - function that searches a string
+ * _strspn - function that gets length of a prefix
  * @s: an input
  * @accept: an input
  * Return: always return 0
  */
 
-char *_strpbrk(char *s, char *accept)
+unsigned int _strspn(char *s, char *accept)
 {
-	int j;
+	unsigned int n = 0;
+	int i;
 
-	while(*s)
+	while (*s)
 	{
-		for (j = 0; accept[j]; j++)
+		for (i = 0; accept[i]; i++)
 		{
-		if (*s == accept[j])
-		return (s);
+			if (*s == accept[i])
+			{
+				n++;
+				break;
+			}
+			else if (accept[i + 1] == '\0')
+			return (n);
 		}
-	s++;
+		s++;
 	}
-	return ('\0');
+	return (n);
 }
