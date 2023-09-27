@@ -1,10 +1,12 @@
 #include "main.h"
 
 /**
- * _strstr - entry point
- * @haystack: an input
- * @needle: another input
- * Return: returns 0
+ * _strstr - Locates a substring
+ * @haystack: string to be searched
+ * @needle: substring to be located
+ * Return: if substring is located - pointer to the
+ beginning of located substring
+ * If the substring is not located - NULL.
  */
 char *_strstr(char *haystack, char *needle)
 {
