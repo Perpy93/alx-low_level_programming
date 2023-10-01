@@ -2,7 +2,7 @@
 /**
  * factorial - gets factorial of a number
  * @n: a factor
- * Return - return factorial of n
+ * Return: return factorial of n
  */
 int factorial(int n)
 {
