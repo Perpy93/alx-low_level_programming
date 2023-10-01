@@ -3,7 +3,7 @@
  * prime_a - Calculate if its a prime number
  * @a: number to be checked
  * @b: a divisor
- * Return : returns (0)
+ * Return: returns (0)
  */
 int prime_a(int a, int b)
 {
