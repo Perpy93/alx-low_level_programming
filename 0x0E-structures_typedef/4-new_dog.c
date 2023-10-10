@@ -1,5 +1,4 @@
 #include "dog.h"
-#include <stddef.h>
 #include <stdlib.h>
 
 /**
@@ -7,7 +6,7 @@
  * @name: name of dog
  * @age: age of dog
  * @owner: owner of dog
- * Return: a new dog
+ * Return:pointer to a new dog
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
@@ -29,6 +28,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	if (dog->name == NULL)
 	{
 		free(dog->name);
+		free(dog);
 		return (NULL);
 	}
 	for (c = 0; c < a; c++)
