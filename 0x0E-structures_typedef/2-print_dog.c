@@ -1,9 +1,10 @@
 #include "dog.h"
 #include <stdio.h>
+
 /**
- * print_dog - function that prints dog
- * @d: dog to print
- */
+* print_dog - function that prints struct dog
+* @d: dog to print
+*/
 void print_dog(struct dog *d)
 
 {
