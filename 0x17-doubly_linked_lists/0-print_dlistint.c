@@ -1,13 +1,12 @@
 #include "lists.h"
 
 /**
- *print_dlistint - prints doubly linked lists
- *@h: address of head node
+ * print_dlistint - prints doubly linked list
+ * @h: address of head node
  *
- *Return: size of list
+ * Return: size of list
  */
-
-print_dlistint(const dlistint_t *h)
+size_t print_dlistint(const dlistint_t *h)
 {
 	size_t i = 0;
 
